@@ -1252,3 +1252,43 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+@media (max-width: 900px) {
+  body {
+    align-items: center;
+  }
+
+  .flowers {
+    transform: translateY(10vmin) scale(0.74);
+  }
+
+  .wish-message {
+    bottom: 96vmin;
+    width: min(92vw, 34rem);
+  }
+
+  .wish-message__text {
+    white-space: normal;
+    line-height: 1.25;
+    font-size: clamp(1.05rem, 4vw, 1.7rem);
+  }
+}
+
+@media (max-width: 560px) {
+  body {
+    align-items: flex-end;
+  }
+
+  .flowers {
+    transform: translateY(18vmin) scale(0.56);
+  }
+
+  .wish-message {
+    bottom: 86vmin;
+    width: min(92vw, 20rem);
+  }
+
+  .wish-message__text {
+    font-size: clamp(0.95rem, 5vw, 1.3rem);
+  }
+}

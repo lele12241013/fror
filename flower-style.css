@@ -1255,15 +1255,15 @@ body {
 
 @media (max-width: 900px) {
   body {
-    align-items: center;
+    align-items: flex-end;
   }
 
   .flowers {
-    transform: translateY(10vmin) scale(0.74);
+    transform: translateY(1vmin) scale(0.72);
   }
 
   .wish-message {
-    bottom: 96vmin;
+    bottom: 108vmin;
     width: min(92vw, 34rem);
   }
 
@@ -1277,18 +1277,20 @@ body {
 @media (max-width: 560px) {
   body {
     align-items: flex-end;
+    padding-bottom: max(4vmin, env(safe-area-inset-bottom));
   }
 
   .flowers {
-    transform: translateY(18vmin) scale(0.56);
+    transform: translateY(-8vmin) scale(0.62);
   }
 
   .wish-message {
-    bottom: 86vmin;
+    bottom: 112vmin;
     width: min(92vw, 20rem);
   }
 
   .wish-message__text {
-    font-size: clamp(0.95rem, 5vw, 1.3rem);
+    font-size: clamp(0.95rem, 4.6vw, 1.2rem);
+    line-height: 1.32;
   }
 }

@@ -1263,13 +1263,12 @@ body {
   }
 
   .wish-message {
-    bottom: 108vmin;
+    bottom: 106vmin;
     width: min(92vw, 34rem);
   }
 
   .wish-message__text {
-    white-space: normal;
-    line-height: 1.25;
+    white-space: nowrap;
     font-size: clamp(1.05rem, 4vw, 1.7rem);
   }
 }
@@ -1281,16 +1280,17 @@ body {
   }
 
   .flowers {
-    transform: translateY(-8vmin) scale(0.62);
+    transform: translateY(-5vmin) scale(0.74);
   }
 
   .wish-message {
-    bottom: 112vmin;
-    width: min(92vw, 20rem);
+    bottom: 116vmin;
+    width: min(96vw, 22rem);
   }
 
   .wish-message__text {
-    font-size: clamp(0.95rem, 4.6vw, 1.2rem);
-    line-height: 1.32;
+    white-space: nowrap;
+    font-size: clamp(0.95rem, 4vw, 1.15rem);
+    letter-spacing: 0.01em;
   }
 }

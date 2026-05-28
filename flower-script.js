@@ -1,6 +1,6 @@
 const navigationEntry = performance.getEntriesByType("navigation")[0];
 if (navigationEntry && navigationEntry.type === "reload") {
-  window.location.replace("indxe.html");
+  window.location.replace("index.html");
 }
 
 window.onload = () => {

@@ -1259,7 +1259,7 @@ body {
   }
 
   .flowers {
-    transform: translateY(1vmin) scale(0.72);
+    transform: translateY(0vmin) scale(0.8);
   }
 
   .wish-message {
@@ -1269,7 +1269,7 @@ body {
 
   .wish-message__text {
     white-space: nowrap;
-    font-size: clamp(1.05rem, 4vw, 1.7rem);
+    font-size: clamp(1.25rem, 4.8vw, 2rem);
   }
 }
 
@@ -1280,17 +1280,17 @@ body {
   }
 
   .flowers {
-    transform: translateY(-5vmin) scale(0.74);
+    transform: translateY(-3vmin) scale(0.86);
   }
 
   .wish-message {
-    bottom: 116vmin;
-    width: min(96vw, 22rem);
+    bottom: 118vmin;
+    width: min(98vw, 24rem);
   }
 
   .wish-message__text {
     white-space: nowrap;
-    font-size: clamp(0.95rem, 4vw, 1.15rem);
+    font-size: clamp(1.1rem, 5vw, 1.4rem);
     letter-spacing: 0.01em;
   }
 }
